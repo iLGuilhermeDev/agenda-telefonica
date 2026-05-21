@@ -67,22 +67,38 @@ Clique em Limpar campos para apagar os dados dos campos de texto e desabilitar o
 text
 agenda_gui.py
 ├── Conexão e operações com SQLite
+
 │   ├── conectar_banco()
+
 │   ├── criar_tabela()
+
 │   ├── adicionar_contato()
+
 │   ├── listar_contatos()
+
 │   ├── buscar_contato()
 │   ├── atualizar_contato()
+
 │   └── remover_contato()
+
 └── Classe AgendaApp (interface Tkinter)
+
     ├── __init__() – constrói a janela e os widgets
+    
     ├── carregar_contatos()
+    
     ├── buscar()
+    
     ├── adicionar()
+    
     ├── on_selecionar()
+    
     ├── limpar_campos()
+    
     ├── atualizar()
+    
     └── remover()
+    
 📁 Banco de dados
 Arquivo: agenda.db (criado automaticamente)
 
